@@ -1,12 +1,21 @@
 @charset "UTF-8";
 body {
-	background-color: #DCDCDC;
+	background-color:#AAA;
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 12px;
 	line-height: 24px;
 	color: #336699;
 }
-
+/*
+h1{
+	font-family:"Times New Roman", Times, serif;
+	font-size:36px;
+	font-style:oblique;
+	color:#093;
+	alignment-adjust:center;
+}
+*/	
+	
 td, th {
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 12px;
@@ -50,14 +59,14 @@ form {
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 14px;
   font-weight: bold;
-	background-color: #CCCCCC;
+	background-color: # 690;
 }
 
 .navLink {
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 14px;
 	font-weight: bold;
-	background-color: #DEDECA;
+	background-color: # 111;
 }
 
 .sidebar {
@@ -94,7 +103,7 @@ form {
 
 .legal {
 	font-family: Arial, Helvetica, sans-serif;
-	font-size: 9px;
+	font-size: 6px;
 	color: #333333;
 }
 
@@ -125,9 +134,9 @@ form {
 }
 
 a:hover {
-	text-decoration: underline;
+	text-decoration: underline ;
 }
-
+/*
 input.big {
 	width: 100px;
 }
