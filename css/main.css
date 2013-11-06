@@ -20,7 +20,22 @@ li
 {
 	float:left;
 }
+
+a:link,a:visited
+
 {
-	a:link,a:visited
+	display:block;
+	width:200px;
+	font-weight:bold;
+	color: #0F9;
+	background-color: #66F;
+	text-align:center;
+	padding:2px;
+	text-decoration:none;
+	text-transform:uppercase;
+}
+a:hover,a:active
+{
+	background: -moz-linear-gradient(rgb(255,102,255) 39%, rgb(255,153,0) 72%);
 }
 		
