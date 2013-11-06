@@ -1,0 +1,25 @@
+@charset "UTF-8";
+/* CSS Document */
+body
+{
+	font: 115%/1.5 "Trebuchet MS", Arial, Helvetica, sans-serif;
+	margin:5px;
+	padding:5px;
+	background-color:#996;
+	
+}
+img
+{
+ 	margin:6px;
+	border:3px solid;
+	height:auto;
+	width:auto;
+	float:inherit;
+	text-align:left;
+	border-style:outset;
+	border-radius:10px;
+	text-align:center;
+	text-shadow:4px 4px #770000;
+	
+}
+
