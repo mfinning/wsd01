@@ -16,6 +16,22 @@ img
 	float:inherit;
 	border-style:outset;
 	border-radius:10px;
+}
+h2
+{
+	text-align:center;
+	font-size:1.5em;
+	font-family:"Courier New", Courier, monospace;
+	color: #309;
+}
+.title
+{
+	text-align:center;
+	font-size:1.5em;
+	font-family:'Ewert',cursive;
+	color: #00F;
+	
+}
 	
 	
 
