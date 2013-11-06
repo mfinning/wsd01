@@ -2,6 +2,7 @@
 /* CSS Document */
 body
 {
+<<<<<<< HEAD
 	font: 115%/1.5 "Trebuchet MS", Arial, Helvetica, sans-serif;
 	margin:5px;
 	padding:5px;
@@ -23,3 +24,42 @@ img
 	
 }
 
+=======
+	font:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	margin:auto;
+	padding: 4px;
+	background-color:#966
+}
+/*+++++++++++++++++++++++++++++++++++++++++++++++  nav  ++++++++++++++++++++++++*/
+ul
+{
+	list-style:none;
+	margin:3px;
+	padding:3px;
+	overflow:hidden;
+	color:#990;
+}
+li
+{
+	float:left;
+}
+
+a:link,a:visited
+
+{
+	display:block;
+	width:200px;
+	font-weight:bold;
+	color: #0F9;
+	background-color: #66F;
+	text-align:center;
+	padding:2px;
+	text-decoration:none;
+	text-transform:uppercase;
+}
+a:hover,a:active
+{
+	background: -moz-linear-gradient(rgb(255,102,255) 39%, rgb(255,153,0) 72%);
+}
+		
+>>>>>>> 66947a4ab72eb2f8bc572b426cda13ee7e2d1c9e
