@@ -35,44 +35,6 @@ h2
 	
 	
 
-/*+++++++++++++++++++++++++++++++++++++++++++++++  nav  ++++++++++++++++++++++++*/
-nav{
-	background:#036;
-	height:2.3em;
-	
-	}
-ul,li{
-	margin:0;
-	padding:0;
-	float:left;
-	list-style:none;
-}
-li a{
-	display:block;
-	line-height:2em;
-	padding: 0 1em;
-	color:silver;
-	text-decoration:none;
-}
-li a:hover{
-	background:#069;
-	height:2em;
-	padding-top:.3em;
-	position:relative;
-	top:-3em;
-	border-radius:.3em .3em 0 0;
-}
-.current,a:hover.current{
-	background:#369;
-	color:#777;
-	padding-top:.3em;
-	position:relative;
-	top:-3em;
-	border-radius:.3em .3em 0 0;
-	cursor:default;
-	
-
-
 
 
 
