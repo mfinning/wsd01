@@ -1,18 +1,18 @@
 body
 {
-	font:115%/1.5 "Trebuchet MS", Arial, Helvetica, sans-serif;
-	background-color:#99775B;
-	margin:5px;
-	padding:5px;
-	
+	font: 115%/1.5 "Trebuchet MS", Arial, Helvetica, sans-serif;
+	background-color: #99775B;
+	margin: 5px;
+	padding: 5px;
+	background-image: url(../images/comic.jpg);
+	border-image: none;
 }
 .logo
 {
 	margin:3px;
 	border:3px solid #64433C;
-	height:30%;
-	width:30%;
-	float:inherit;
+	height:auto;
+	width:auto;
 	border-style:outset;
 	border-radius:10px;
 	background:#868B85;	
@@ -64,7 +64,7 @@ img.displayed
 /*===================== Nav =======================*/
 ul{
    list-style:none;
-   margin:5px;
+   margin:auto;
    padding:5px;
    overflow:hidden;
    
@@ -102,18 +102,48 @@ recipes
 	background:#309;	
 }
 
+/*=============================== about ===============================*/
 
+article {
+	-moz-column-count: 4;
+    -moz-column-gap:25px;
+	-moz-column-rule: 4px outset #963;
+	column-count: 4;
+	column-gap: 25px;
+	column-rule: 4px outset #963;
+	color: #930;
+	overflow:hidden;
+	background-image: url(../images/background.png);
+}
+img.book{
+	display:block;
+	margin-left:auto;
+ 	margin-right:auto;
+ 	padding:4px;
+ 	background-color:#A5ADB6;	
+}
+/*===================================== recipe/shop ====================*/
+aside.shop{
+	display:block;
+	margin-left:auto;
+ 	margin-right:auto;
+ 	padding:4px;
+ 	background-image:url(../images/background.png);
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+img.cookbook{
+	display:block;
+	margin-left:auto;
+ 	margin-right:auto;
+ 	padding:4px;
+ 	background-color:#A5ADB6;
+}
+aside.recipes{
+	display:block;
+	margin-left:auto;
+ 	margin-right:auto;
+ 	padding:4px;
+ 	background-image: url(../images/recbg.png);
+}
+		
+	
