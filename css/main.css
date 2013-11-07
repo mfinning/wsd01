@@ -6,14 +6,13 @@ body
 	padding:5px;
 	
 }
-#logo
+.logo
 {
-	margin:6px;
+	margin:3px;
 	border:3px solid #64433C;
-	height:auto;
-	width:auto;
+	height:30%;
+	width:30%;
 	float:inherit;
-	text-align:center;
 	border-style:outset;
 	border-radius:10px;
 	background:#868B85;	
@@ -25,7 +24,7 @@ h1
   font-size:3.5em;
   font-family:"Ewart", cursive;
   color: #933;
-  border:4px thick #92908D;
+  border:4px solid #92908D;
   margin:auto;
   background:#6A4A3F;
   padding:5px;
@@ -65,7 +64,7 @@ img.displayed
 /*===================== Nav =======================*/
 ul{
    list-style:none;
-   margin:10px;
+   margin:5px;
    padding:5px;
    overflow:hidden;
    
@@ -76,20 +75,45 @@ li
 	background-color:#6B802A;
 }
 
+
 	a:link,a:visited
 
 {
 	display:block;
-	width:200px;
+	width:250px;
+	height:50px;
 	font-weight:bold;
 	color:#069;
 	text-align:center;
-	padding:2px;
+	padding:5px;
 	text-decoration:none;
 	text-transform:capitalize;
+	text-align:center;
 }
 	a:hover,a:active
 {
-	backgroud: -moz-linear-gradient(rgb(33,41,74) 39%, 		rgb(110,171,41) 72%);	
-	
+	background: #7A594A;	
 }
+
+/*====================== link libiery =================================*/
+
+recipes
+{
+	background:#309;	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
