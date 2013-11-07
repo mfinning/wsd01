@@ -29,11 +29,31 @@ h2
 	text-align:center;
 	font-size:1.5em;
 	font-family:'Ewert',cursive;
-	color: #00F;
+	color: #563433;
+	
 	
 }
+/*=============================== nav ===========================================*/
+nav{
+	margin:auto;
+	padding:inherit;
+	width:500px;
+	font-family:Verdana, Geneva, sans-serif;
+	display: inline;
+	background-color:#063;
+	float:right;
 	
-	
+}
+ul, li.link{
+	margin:auto;
+	padding:auto;
+	list-style:none;
+	display:block;
+ 	width:10em;
+ 	line-height:2em;
+ 	font-size:1em;
+ 	background-color:#993;	
+}
 
 
 
