@@ -1,68 +1,95 @@
-
 body
 {
-	font: 115%/1.5 "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font:115%/1.5 "Trebuchet MS", Arial, Helvetica, sans-serif;
+	background-color:#99775B;
 	margin:5px;
 	padding:5px;
-	background-color:#996;
 	
 }
-img
+#logo
 {
- 	margin:6px;
-	border:3px solid;
+	margin:6px;
+	border:3px solid #64433C;
 	height:auto;
 	width:auto;
 	float:inherit;
+	text-align:center;
 	border-style:outset;
 	border-radius:10px;
+	background:#868B85;	
+}
+h1
+{
+  text-align:center;
+  text-shadow: 10px 10px #5E6949;
+  font-size:3.5em;
+  font-family:"Ewart", cursive;
+  color: #933;
+  border:4px thick #92908D;
+  margin:auto;
+  background:#6A4A3F;
+  padding:5px;
 }
 h2
 {
-	text-align:center;
-	font-size:1.5em;
-	font-family:"Courier New", Courier, monospace;
-	color: #000;
+  margin:auto;
+  text-align:center;
+  text-shadow:4px 3px #363739;
+  font-size:2.5em;
+  font-family: 'Cherry Swash', cursive;
+  color: #C2522F;
+  background:#767E82;
+  border-radius:10px;	
 }
-.title
+
+p.main{
+	margin:auto;
+	padding:5px;
+	text-align:center;
+	background:#CFE0F7;	
+}
+img.displayed
 {
-	text-align:center;
-	font-size:1.5em;
-	font-family:'Ewert',cursive;
-	color: #563433;
-	
-	
+ 	display:block;
+	margin-left:auto;
+ 	margin-right:auto;
+ 	padding:4px;
+ 	background-color:#A5ADB6;	
 }
-/*=============================== nav ===========================================*/
-nav{
-	margin:auto;
-	padding:inherit;
-	width:500px;
-	font-family:Verdana, Geneva, sans-serif;
-	display: inline;
-	background-color:#063;
-	float:right;
-	
+#box1
+{
+   background: #FADE53;
+   margin:4px; 
 }
-ul, li.link{
-	margin:auto;
-	padding:auto;
-	list-style:none;
+
+/*===================== Nav =======================*/
+ul{
+   list-style:none;
+   margin:10px;
+   padding:5px;
+   overflow:hidden;
+   
+}
+li
+{
+	float:right;	
+	background-color:#6B802A;
+}
+
+	a:link,a:visited
+
+{
 	display:block;
- 	width:10em;
- 	line-height:2em;
- 	font-size:1em;
- 	background-color:#993;	
+	width:200px;
+	font-weight:bold;
+	color:#069;
+	text-align:center;
+	padding:2px;
+	text-decoration:none;
+	text-transform:capitalize;
 }
-
-
-
-
-
-
-
-
-
-
-
-
+	a:hover,a:active
+{
+	backgroud: -moz-linear-gradient(rgb(33,41,74) 39%, 		rgb(110,171,41) 72%);	
+	
+}
