@@ -58,14 +58,22 @@ img.displayed
 .box1
 {
    background: #FADE53;
-   margin:4px; 
+   margin:auto; 
 }
 
 /*===================== Nav =======================*/
+
+nav{
+	list-style:none;
+	font-family: 'Sonsie One', cursive;
+	font-size:1.2em
+}
+
+
 ul{
    list-style:none;
    margin:auto;
-   padding:5px;
+   padding:.00520833%; 
    overflow:hidden;
    
 }
@@ -80,15 +88,15 @@ li
 
 {
 	display:block;
-	width:250px;
-	height:50px;
+	width:300px;
+	height:75px;
 	font-weight:bold;
 	color:#069;
 	text-align:center;
-	padding:5px;
+	padding:.00520833%;
 	text-decoration:none;
 	text-transform:capitalize;
-	text-align:center;
+	
 }
 	a:hover,a:active
 {
@@ -145,6 +153,10 @@ aside.recipes{
  	padding:4px;
  	background-image: url(../images/recbg.png);
 }
+
+img{
+	max-width:100%
+	}
 /*============================================ media queries =======================*/	
 @media screen and(min-width: 768px)and(max-width: 959px){
 	
@@ -153,10 +165,10 @@ aside.recipes{
  @media only screen and(min-width: 480px)and(max-width: 757px){
 	
 	
-}
+ }
 
 @media  only screen and(min-width: (max-width: 479px){
 	
-	
+	 section,aside {float:none:}
 }
 	
