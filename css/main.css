@@ -1,21 +1,22 @@
 body
 {
 	font: 115%/1.5 "Trebuchet MS", Arial, Helvetica, sans-serif;
-	background-color: #99775B;
+	
 	margin: .00520833%;
 	padding: .00520833%;
-	background-image: url(../images/comic.jpg);
+	background-image:url(../images/backgrd.gif);
 	border-image: none;
 }
-#logo
+logo
 {
-	margin:3px;
-	border:3px solid #64433C;
+	margin:0.003125%;
+	border:0.003125% solid #64433C;
 	height:auto;
 	width:auto;
 	border-style:outset;
 	border-radius:10px;
 	background:#868B85;	
+	
 }
 h1
 {
@@ -55,11 +56,13 @@ img.displayed
  	padding:4px;
  	background-color:#A5ADB6;	
 }
-.box1
-{
-   background: #FADE53;
-   margin:auto; 
+footer{
+	display:block;
+	text-align:center;
+	background-color:#996;
+	
 }
+
 
 /*===================== Nav =======================*/
 
@@ -67,6 +70,7 @@ nav{
 	list-style:none;
 	font-family: 'Sonsie One', cursive;
 	font-size:1.2em;
+	text-align:center;
 	
 }
 
@@ -117,9 +121,6 @@ recipes
 	-moz-column-count: 4;
     -moz-column-gap:25px;
 	-moz-column-rule: 4px outset #963;
-	column-count: 4;
-	column-gap: 25px;
-	column-rule: 4px outset #963;
 	color: #930;
 	overflow:hidden;
 	background-image: url(../images/background.png);
@@ -154,9 +155,18 @@ aside.recipes{
  	padding:4px;
  	background-image: url(../images/recbg.png);
 }
+#photos{
+	opacity:1.0;
+}
+	img:hover
+{
+	opacity:0.4;
+	
+}
 
-img{
-	max-width:100%
-	}
+img
+{
+	max-width:100%;
+}
 
 	

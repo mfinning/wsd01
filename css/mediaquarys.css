@@ -8,9 +8,14 @@
 
 @media screen and (max-width: 758px) {
 	
+	
+	
 }
 
 @media screen and (max-width: 524px) {
+	#img.displayed {display:none;}
+	#boxmain       {display:none;}
+	.box 		   {display:inline;}
 
 }
 
