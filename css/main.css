@@ -10,7 +10,7 @@ body
 logo
 {
 	margin:0.003125%;
-	border:0.003125% solid #64433C;
+	border:3px solid #64433C;
 	height:auto;
 	width:auto;
 	border-style:outset;
@@ -44,7 +44,7 @@ h2
 
 p.main{
 	margin:auto;
-	padding:5px;
+	padding:.0048828125%;
 	text-align:center;
 	background:#CFE0F7;	
 }
@@ -62,8 +62,26 @@ footer{
 	background-color:#996;
 	
 }
-
-
+ .join
+ {
+   width:300px;
+   margin:.047619048%;
+   text-align:center;
+   background-color:#6A4A3F;
+   border:5px ridge #777E82;
+   border-color:#989966;
+  }
+ .table
+ {
+	width:200px;
+    margin:50px;
+    text-align:center;
+	color:#6A4A3F;
+    background-color: #989966;
+    border:5px ridge #777E82;
+    border-color: #6A4A3F; 
+ }
+ 
 /*===================== Nav =======================*/
 
 nav{
@@ -129,7 +147,7 @@ img.book{
 	display:block;
 	margin-left:auto;
  	margin-right:auto;
- 	padding:4px;
+ 	padding:.0039062%;
  	background-color:#A5ADB6;	
 }
 /*===================================== recipe/shop ====================*/
@@ -137,7 +155,7 @@ aside.shop{
 	display:block;
 	margin-left:auto;
  	margin-right:auto;
- 	padding:4px;
+ 	padding:.0039062%;
  	background-image:url(../images/background.png);
 }
 
@@ -145,14 +163,14 @@ img.cookbook{
 	display:block;
 	margin-left:auto;
  	margin-right:auto;
- 	padding:4px;
+ 	padding:.0039062%;
  	background-color:#A5ADB6;
 }
 aside.recipes{
 	display:block;
 	margin-left:auto;
  	margin-right:auto;
- 	padding:4px;
+ 	padding:.0039062%;
  	background-image: url(../images/recbg.png);
 }
 #photos{
@@ -169,4 +187,23 @@ img
 	max-width:100%;
 }
 
+@media screen and (max-width: 960px) {
+
+		
+
+}
+
+@media screen and (max-width: 758px) {
+	
+	#boxmain       {display:none;}
+	.box 		   {display:inline;}
+	p				{color:#000;}
+}
+
+@media screen and (max-width: 524px) {
+	#img.displayed {display:none;}
+	#boxmain       {display:none;}
+	.box 		   {display:inline;}
+
+}
 	

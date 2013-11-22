@@ -8,8 +8,9 @@
 
 @media screen and (max-width: 758px) {
 	
-	
-	
+	#boxmain       {display:none;}
+	.box 		   {display:inline;}
+	p				{color:#000;}
 }
 
 @media screen and (max-width: 524px) {
